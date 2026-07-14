@@ -49,6 +49,8 @@ PACMAN_PACKAGES=(
   ttf-dejavu
   wireplumber
   i3blocks
+  vlc
+  vlc-plugin-ffmpeg
 )
 
 AUR_PACKAGES=(
