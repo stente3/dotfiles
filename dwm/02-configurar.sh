@@ -211,8 +211,8 @@ cat >"$START_SCRIPT" <<'START'
 if [ -f "$HOME/.Xresources" ] && command -v xrdb >/dev/null 2>&1; then
     xrdb -merge "$HOME/.Xresources"
 fi
-if [ -f "$HOME/Pictures/wallpapers/manhattan.jpg" ]; then
-    feh --bg-scale "$HOME/Pictures/wallpapers/manhattan.jpg" &
+if [ -f "$HOME/Pictures/wallpapers/wallpaper_1.jpg.jpg" ]; then
+    feh --bg-scale "$HOME/Pictures/wallpapers/wallpaper_1.jpg.jpg" &
 fi
 pgrep -u "$(id -u)" -x flameshot >/dev/null 2>&1 || flameshot &
 (
